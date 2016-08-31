@@ -1,0 +1,16 @@
+  #First Commit
+  339  git init
+  340  git add *
+  341  git status
+  342  git commit -m "initial"
+  343  git remote add origin https://github.com/sniealu/boost-example.git
+  344  git remote show origin
+  349  git push -f
+  
+  #Subsequent Commit
+  356  git status
+  357  git add readme.md 
+  358  git status
+  359  git commit -m "add readme.md"
+  360  git log
+  361  git push
