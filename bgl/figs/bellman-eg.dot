@@ -1,0 +1,7 @@
+digraph D {
+  rankdir=LR
+  size="5,3"
+  ratio="fill"
+  edge[style="bold"]
+  node[shape="circle"]
+u -> y[label="-4", color="black"]u -> x[label="8", color="grey"]u -> v[label="5", color="grey"]v -> u[label="-2", color="black"]x -> y[label="9", color="grey"]x -> v[label="-3", color="black"]y -> v[label="7", color="grey"]y -> z[label="2", color="grey"]z -> u[label="6", color="grey"]z -> x[label="7", color="black"]}
